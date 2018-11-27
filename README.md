@@ -10,3 +10,5 @@ https://software.intel.com/es-es/forums/opencl/topic/780344?fbclid=IwAR01T0PP-tn
 ```shell
 https://software.intel.com/es-es/forums/opencl/topic/780344?fbclid=IwAR01T0PP-tnLZU8EpzUHrAoORR4Q_U48SIAW-b5JCYl2ga0qwnC8PII4wBk
 ```
+
+## clone el repositorio  y abra el punto .pro y ejecutelo con qt  
