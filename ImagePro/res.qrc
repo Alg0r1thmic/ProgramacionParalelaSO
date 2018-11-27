@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/images"/>
+    <qresource prefix="/images"/>
+    <qresource prefix="/">
+        <file>test.ppm</file>
+    </qresource>
+</RCC>
