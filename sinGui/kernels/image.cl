@@ -21,8 +21,6 @@ __kernel void Filter (
         for(int x = -FILTER_SIZE; x <= FILTER_SIZE; x++) {
             sum += FilterValue(filterWeights, x, y)
                 * read_imagef(input, sampler, pos + (int2)(x,y));
-	float4 f = (float4)(1.0f, 2.0f, 3.0f, 4.0f);
-	printf("f4 = %2.2v4hlf\n", f);
         }
     }
 
