@@ -12,7 +12,6 @@
 	#include "CL/cl.h"
 #endif
 
-using namespace cv;
 using namespace std;
 
 struct Image
@@ -123,7 +122,6 @@ int main ()
 										);
 	CheckError (error);
 
-
 	cl_mem outputImage = clCreateImage2D (context, CL_MEM_WRITE_ONLY, &format,
 		image.width, image.height, 0,
 		nullptr, &error);
@@ -165,7 +163,6 @@ int main ()
 
 	SaveImage (RGBAtoRGB (result), "output.ppm");
 
-	
 
 	
 	cl_ulong time_start;
@@ -191,8 +188,6 @@ int main ()
 
 	t = clock() - t;
     printf ("Tienpo total, %f segundos\n",t,((float)t)/CLOCKS_PER_SEC);
-
-
 
 	return 0;
 }
