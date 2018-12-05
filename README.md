@@ -22,7 +22,11 @@ cd intel_sdk_for_opencl_2017_7.0.0.2568_x64
 ## instale por GUI(recomendado)
 ```shell
 sudo chmod +x install_GUI.sh
-./install_GUI.sh
 ```
+```shell
+sudo ./install_GUI.sh
+```
+## siga las instrucciones que se muestran en la gui al terminar ya tendria instalado opencl
+
 
 # clone el repositorio  y abra el punto .pro y ejecutelo con qt  
