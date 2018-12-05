@@ -29,4 +29,12 @@ sudo ./install_GUI.sh
 ## siga las instrucciones que se muestran en la gui al terminar ya tendria instalado opencl
 
 
-# clone el repositorio  y abra el punto .pro y ejecutelo con qt  
+# Si ud tiene Qt puede abrir el  .pro y ejecutarlo  de lo contrario puede ir a la carpeta sinGui y compilar de la siguiente manera
+```shell
+g++ main.cpp -o m -lOpenCL
+
+```
+## por ultimo llame el ejecutable en este caso m  y puede verificar que en esa carpeta esta la imagen con el filtro aplicado
+```shell
+./m
+```
